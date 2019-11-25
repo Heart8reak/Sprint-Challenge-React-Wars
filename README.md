@@ -24,25 +24,35 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [x] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-- [ ] What does it mean to _think_ in react?
+It is a Javascript Library used to create user interface and user experience. It breaks down a web site into small pieces, by making them into components. 
 
-- [ ] Describe state.
+- [x] What does it mean to _think_ in react?
 
-- [ ] Describe props.
+The thought process a developer uses to break down the production of a project. Thinking through which components will be needed, what heirarchy to use, and how the file architecture should be, this is the meaning behind; "Thinking in react".
 
-- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+- [x] Describe state.
+
+"State" in react means how a component is rendered and how it behaves if something acts on it through a function. It is dynamic and the components are interactive in React, for example; buttons, counters or text.
+
+- [x] Describe props.
+
+"Props" in react are the parameters used to control and customize different components. Props are connected to components and can be changed if necessary. Example; if we have an image, the url of that image is a prop and can be controlled to show different images if necessary.
+
+- [x] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+Side Effects are hooks that tell a react component to run or execute, such as useState ad useEffect. You can sync effects in a React component by adding a dependacy array at the end of your hook.  
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
-- [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
-- [ ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` or `npm install` to retrieve all needed dependencies.
+- [x] Create a forked copy of this project.
+- [x] Add TL as collaborator on Github.
+- [x] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
+- [x] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
+- [x] Change directories into `./starwars` (`cd starwars`) and run `yarn install` or `npm install` to retrieve all needed dependencies.
 - [ ] Once you have installed the _node_modules_, run `yarn start` or `npm start` to get your server up and running.
 - [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
 Follow these steps for completing your project.
