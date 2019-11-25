@@ -16,6 +16,5 @@
 .card {
   /* flex-grow: 1; */
   height: auto;
-  padding: 5px;
   margin: 10px;
 }
