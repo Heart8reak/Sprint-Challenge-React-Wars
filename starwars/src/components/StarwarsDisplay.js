@@ -9,7 +9,6 @@ export default function StarwarsCards() {
 
     useEffect(() => {
 
-
         axios.get("https://cors-anywhere.herokuapp.com/https://swapi.co/api/people")
             .then(res => {
                 console.log(res)
@@ -35,6 +34,7 @@ export default function StarwarsCards() {
                             skinColor={person.skin_color}
                             hairColor={person.hair_color}
                             height={person.height}
+                            homeWorld={person.homeworld}
                         />
                     )
                 })}
